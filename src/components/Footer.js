@@ -1,8 +1,8 @@
 import  styled from 'styled-components';
 
-const FooterStyle = styled.div`
+const FooterStyle = styled.footer`
         font-size: 2em;
-        display: block;
+        display: flex;
         text-align: center;
         width: 100%;
         height: 20vh;
@@ -11,11 +11,9 @@ const FooterStyle = styled.div`
 
 const Footer = () => {
     return (
-        <footer>
             <FooterStyle>
                 <h1>footer 영역입니다</h1>
-            </FooterStyle>   
-        </footer>
+            </FooterStyle>  
     )
 }
 export default Footer;

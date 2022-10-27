@@ -1,18 +1,15 @@
 import './App.css';
-import { Router } from 'react';
-import BoardMain from './pages/BoardMain';
+import BoardRead from './pages/BoardRead';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
     return (
-        <Router>
             <div className='App'>
                 <Header/>
-                <BoardMain/>
+                <BoardRead/>
                 <Footer/>
             </div>
-        </Router>
     )
   }
   

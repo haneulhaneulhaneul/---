@@ -1,8 +1,8 @@
 import  styled from 'styled-components';
 
-const HeaderStyle = styled.div`
+const HeaderStyle = styled.header`
         font-size: 2em;
-        display: block;
+        display: flex;
         position: fixed;
         text-align: center;
         width: 100%;
@@ -12,11 +12,9 @@ const HeaderStyle = styled.div`
 
 const Header = () => {
     return (
-        <header>
             <HeaderStyle> 
                 <h1>header 영역 입니다</h1>
             </HeaderStyle>
-        </header>
     )
 }
 export default Header;
